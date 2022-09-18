@@ -10,7 +10,7 @@ const promiseOutput = async (params) => {
    const newArray = array1.concat(array2);
  
    const count = newArray.filter((obj) => obj.hasil === params).length;
-   console.log(count);
+return count;
   }
   catch (err) {
    console.log(err);
